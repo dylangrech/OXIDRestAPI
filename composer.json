@@ -1,0 +1,23 @@
+{
+  "name": "dylangrech/rest-api-controller",
+  "description": "Module",
+  "version": "1.0",
+  "type": "oxideshop-module",
+  "author": {
+    "name": "Dylan Grech",
+    "email": "dylan.grech@fatchip.de"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "fc/fcrestapiproject"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fatchip\\RestAPI\\": "../../../source/modules/fc/fcrestapiproject"
+    }
+  }
+}
